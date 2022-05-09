@@ -16,11 +16,11 @@ Criar o banco de dados `peca_rara` e salvar as credenciais de conexão no arquiv
 
 Executar os seguintes comandos:
 
-`composer install
-npm install
-php artisan key:generate
-php artisan migrate:fresh --seed
-php artisan storage:link`
+`composer install`
+`npm install`
+`php artisan key:generate`
+`php artisan migrate:fresh --seed`
+`php artisan storage:link`
 
 # Utilizando a API
 Nessa versão atual, a integração da API com o front-end não está pronta. Apenas se consegue:
