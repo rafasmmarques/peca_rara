@@ -21,7 +21,7 @@ class CreateClientsTable extends Migration
             $table->string('address');
             $table->string('address_complement')->nullable();
             $table->string('neighborhood');
-            $table->string('zip');
+            $table->integer('zip');
             $table->date('birth_date');
             $table->timestamps();
         });
